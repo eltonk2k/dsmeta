@@ -20,10 +20,10 @@ public class Sale {
 	private Integer deals;
 	private Double amount;
 	private LocalDate date;
-	
+
 	public Sale() {
 	}
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -71,6 +71,5 @@ public class Sale {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
-	
-	
+
 }
